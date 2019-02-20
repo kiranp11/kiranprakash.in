@@ -2,12 +2,12 @@
 
 module.exports = {
   url: 'https://lumen.netlify.com',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  title: 'Blog by Kiran Prakash',
+  subtitle: 'Programmer. Principal Engineer at ThoughtWorks.',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: 'UA-31828248-2',
   menu: [
     {
       label: 'Articles',
@@ -16,23 +16,18 @@ module.exports = {
     {
       label: 'About me',
       path: '/pages/about'
-    },
-    {
-      label: 'Contact me',
-      path: '/pages/contacts'
     }
   ],
   author: {
-    name: 'John Doe',
+    name: 'Kiran Prakash',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: 'Programmer. Principal Engineer at ThoughtWorks.',
     contacts: {
-      email: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
-      rss: '#',
-      vkontakte: '#'
+      telegram: 'kiran_p11',
+      twitter: 'kiran_p',
+      github: 'kiranp11',
+      linkedin: 'kiran-prakash',
+      rss: 'rss.xml'
     }
   }
 };
