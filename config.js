@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://kiranprakash.in',
   title: 'Blog by Kiran Prakash',
   subtitle: 'Programmer. Principal Engineer at ThoughtWorks.',
   copyright: '© All rights reserved.',
