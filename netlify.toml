@@ -1,10 +1,18 @@
 [build]
   publish = "public"
-  command = "npm ci && npm run clean && gatsby build"
+  command = """
+    # Install Bun
+    curl -fsSL https://bun.sh/install | bash
+    export PATH="$HOME/.bun/bin:$PATH"
+    
+    # Install dependencies and build
+    bun install
+    bun run clean
+    gatsby build
+  """
 
 [build.environment]
   NODE_VERSION = "20"
-  NPM_FLAGS = "--legacy-peer-deps"
 
 [[redirects]]
   from = "/*"
