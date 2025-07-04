@@ -1,9 +1,9 @@
 {
-  "title": "Blog by John Doe",
-  "url": "https://lumen.alxshelepenok.com",
-  "description": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+  "title": "Blog by Kiran Prakash",
+  "url": "https://kiranprakash.in",
+  "description": "Programmer. Principal Engineer at ThoughtWorks.",
   "copyright": "© All rights reserved.",
-  "googleAnalyticsId": "G-MSQGQG14PK",
+  "googleAnalyticsId": "UA-910844-2",
   "pathPrefix": "/",
   "feedLimit": 4,
   "menu": [
@@ -12,26 +12,38 @@
       "url": "/"
     },
     {
-      "title": "About me",
-      "url": "/pages/about"
+      "title": "Talks",
+      "url": "/pages/talks"
     },
     {
-      "title": "Contact me",
-      "url": "/pages/contacts"
+      "title": "About me",
+      "url": "/pages/about"
     }
   ],
   "author": {
-    "title": "John Doe",
+    "title": "Kiran Prakash",
     "photo": "/logo.png",
-    "description": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+    "description": "Programmer. Principal Engineer at ThoughtWorks.",
     "contacts": [
       {
+        "name": "telegram",
+        "contact": "kiran_p11"
+      },
+      {
+        "name": "twitter",
+        "contact": "kiran_p"
+      },
+      {
         "name": "github",
-        "contact": "alxshelepenok"
+        "contact": "kiranp11"
       },
       {
         "name": "linkedin",
-        "contact": "alxshelepenok"
+        "contact": "kiran-prakash"
+      },
+      {
+        "name": "rss",
+        "contact": "rss.xml"
       }
     ]
   }
