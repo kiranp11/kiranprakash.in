@@ -7,7 +7,7 @@ describe("getContactHref", () => {
     expect(getContactHref("rss", "#")).toBe("#");
     expect(getContactHref("mastodon", "#")).toBe("#");
     expect(getContactHref("line", "#")).toBe("line://ti/p/#");
-    expect(getContactHref("x", "#")).toBe("https://www.x.com/#");
+    expect(getContactHref("x", "#")).toBe("https://x.com/#");
     expect(getContactHref("telegram", "#")).toBe("https://t.me/#");
     expect(getContactHref("vkontakte", "#")).toBe("https://vk.com/#");
     expect(getContactHref("medium", "#")).toBe("https://medium.com/#");

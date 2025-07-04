@@ -116,7 +116,7 @@ exports[`PostTemplate renders correctly 1`] = `
                       ],
                       "props": {
                         "className": undefined,
-                        "href": "https://www.x.com/#",
+                        "href": "https://x.com/#",
                         "rel": "noopener noreferrer",
                         "target": "_blank",
                       },
