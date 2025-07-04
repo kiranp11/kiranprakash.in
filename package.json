@@ -16,11 +16,14 @@
   "author": "Alexander Shelepenok <alxshelepenok@gmail.com>",
   "scripts": {
     "test": "bun test",
+    "test:npm": "npm run build",
     "serve": "gatsby serve",
     "release": "semantic-release",
     "clean": "rimraf .cache public",
-    "build": "bun run clean && gatsby build",
-    "start": "bun run clean && gatsby develop",
+    "build": "npm run clean && gatsby build",
+    "build:bun": "bun run clean && gatsby build",
+    "start": "npm run clean && gatsby develop",
+    "start:bun": "bun run clean && gatsby develop",
     "version": "bun ./internal/scripts/up-version.mjs"
   },
   "dependencies": {
