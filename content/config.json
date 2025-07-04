@@ -1,0 +1,50 @@
+{
+  "title": "Blog by Kiran Prakash",
+  "url": "https://kiranprakash.in",
+  "description": "Programmer. Principal Engineer at ThoughtWorks.",
+  "copyright": "© All rights reserved.",
+  "googleAnalyticsId": "UA-910844-2",
+  "pathPrefix": "/",
+  "feedLimit": 4,
+  "menu": [
+    {
+      "title": "Articles",
+      "url": "/"
+    },
+    {
+      "title": "Talks",
+      "url": "/pages/talks"
+    },
+    {
+      "title": "About me",
+      "url": "/pages/about"
+    }
+  ],
+  "author": {
+    "title": "Kiran Prakash",
+    "photo": "/logo.png",
+    "description": "Programmer. Principal Engineer at ThoughtWorks.",
+    "contacts": [
+      {
+        "name": "telegram",
+        "contact": "kiran_p11"
+      },
+      {
+        "name": "twitter",
+        "contact": "kiran_p"
+      },
+      {
+        "name": "github",
+        "contact": "kiranp11"
+      },
+      {
+        "name": "linkedin",
+        "contact": "kiran-prakash"
+      },
+      {
+        "name": "rss",
+        "contact": "rss.xml"
+      }
+    ]
+  }
+}
