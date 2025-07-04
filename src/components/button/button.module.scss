@@ -6,7 +6,7 @@
   border-radius: variables.$button-border-radius;
   font-size: variables.$typography-base-font-size;
   line-height: variables.$button-height;
-  color: hsl(var(--color-foreground));
+  color: hsl(var(--color-secondary));
   height: variables.$button-height;
   text-decoration: none;
   display: inline-block;
@@ -17,7 +17,7 @@
   @include mixins.padding(0, 1);
 
   &:hover, &:focus {
-    color: hsl(var(--color-accent-foreground));
-    background: hsl(var(--color-accent));
+    color: hsl(var(--color-primary));
+    background: transparent;
   }
 }

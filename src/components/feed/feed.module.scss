@@ -17,6 +17,7 @@
 
       .link {
         color: hsl(var(--color-foreground));
+        text-decoration: none;
 
         &:hover,
         &:focus {
@@ -49,20 +50,27 @@
         .link {
           font-weight: 600;
           text-transform: uppercase;
-          color: hsl(var(--color-primary));
+          color: hsl(var(--color-secondary));
           font-size: variables.$typography-small-font-size;
+
+          &:hover,
+          &:focus {
+            color: hsl(var(--color-primary));
+          }
         }
       }
     }
 
     .more {
-      color: hsl(var(--color-foreground));
+      color: hsl(var(--color-primary));
       font-size: variables.$typography-base-font-size;
+      text-decoration: none;
 
       &:hover,
       &:focus {
         border-bottom: 1px solid hsl(var(--color-primary));
         color: hsl(var(--color-primary));
+        text-decoration: none;
       }
     }
   }

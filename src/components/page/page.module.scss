@@ -21,6 +21,16 @@
     font-size: variables.$typography-base-font-size;
     @include mixins.line-height(1);
     @include mixins.margin(0, 0, 1);
+
+    a {
+      color: hsl(var(--color-primary));
+      text-decoration: none;
+
+      &:hover,
+      &:focus {
+        text-decoration: underline;
+      }
+    }
   }
 }
 
