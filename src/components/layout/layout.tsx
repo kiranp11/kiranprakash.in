@@ -15,11 +15,7 @@ const Layout: FC<LayoutProps> = ({ children }) => {
     document.documentElement.className = mode;
   }, [mode]);
 
-  return (
-    <main className={styles.layout}>
-      {children}
-    </main>
-  );
+  return <div className={styles.layout}>{children}</div>;
 };
 
 export { Layout };
