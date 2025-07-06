@@ -8,6 +8,7 @@ import { Page } from "@/components/page";
 import { Layout } from "@/components/layout";
 import { Sidebar } from "@/components/sidebar";
 import { Pagination } from "@/components/pagination";
+import { WebSiteStructuredData } from "@/components/structured-data";
 import { useSiteMetadata } from "@/hooks/use-site-metadata";
 import type { AllMarkdownRemark } from "@/types/all-markdown-remark";
 import type { PageContext } from "@/types/page-context";
@@ -69,13 +70,26 @@ export const query = graphql`
 `;
 
 export const Head: FC<IndexTemplateProps> = ({ pageContext }) => {
-  const { title, description } = useSiteMetadata();
+  const { title, description, url } = useSiteMetadata();
   const {
     pagination: { currentPage: page },
   } = pageContext;
   const pageTitle = page > 0 ? `Posts - Page ${page} - ${title}` : title;
 
-  return <Meta title={pageTitle} description={description} />;
+  return (
+    <>
+      <Meta 
+        title={pageTitle} 
+        description={description} 
+        url={url}
+        type="website"
+      />
+      <WebSiteStructuredData 
+        name={title}
+        url={url}
+      />
+    </>
+  );
 };
 
 export default IndexTemplate;
