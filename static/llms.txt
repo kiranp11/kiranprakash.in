@@ -1,0 +1,31 @@
+# Blog by Kiran Prakash
+
+> Personal blog of Kiran Prakash, Principal Engineer at ThoughtWorks, covering data engineering, machine learning, AI, and software development topics.
+
+This blog focuses on practical insights and real-world experiences in data mesh, data products, large language models, and software engineering practices. The content is aimed at technical professionals looking for actionable guidance and implementation strategies.
+
+## Recent Articles
+
+- [Designing Data Products](https://kiranprakash.in/posts/designing-data-products/): Step-by-step approach to identifying and modeling data products using working backwards methodology
+- [Function Calling using LLMs](https://kiranprakash.in/posts/function-calling-using-llms/): How LLMs can interact with external systems through structured function calls
+- [Governing Data Products using Fitness Functions](https://kiranprakash.in/posts/governing-data-products-using-fitness-functions/): Novel approach to data product governance using automated fitness functions
+- [Data Mesh in Practice series](https://kiranprakash.in/): Four-part series covering organizational models, product thinking, and technology architecture for data mesh implementations
+
+## About
+
+- [About Kiran](https://kiranprakash.in/pages/about/): Background, experience, and current focus areas
+- [Conference Talks](https://kiranprakash.in/pages/talks/): Speaking engagements and presentations on data mesh and data products
+
+## Technical Focus Areas
+
+- Data Mesh and Data Products: Architecture patterns, implementation strategies, and governance models
+- Machine Learning and AI: Practical applications of LLMs, function calling, and AI system design
+- Software Engineering: Best practices, system design, and development methodologies
+- Data Engineering: Modern data architectures, streaming systems, and data infrastructure
+
+## Connect
+
+- [RSS Feed](https://kiranprakash.in/rss.xml): Subscribe to latest articles
+- [GitHub](https://github.com/kiranp11): Code repositories and open source contributions
+- [LinkedIn](https://linkedin.com/in/kiran-prakash): Professional network and updates
+- [Twitter](https://twitter.com/kiran_p): Technical discussions and industry insights
