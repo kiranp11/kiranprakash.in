@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://kiranprakash.in/sitemap-index.xml
+
+# Prevent indexing of admin and development files
+Disallow: /admin/
+Disallow: /.netlify/
+Disallow: /404/
+Disallow: /dev-404-page/
+
+# Allow crawling of important pages
+Allow: /posts/
+Allow: /pages/
+Allow: /rss.xml
