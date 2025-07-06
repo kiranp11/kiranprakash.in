@@ -20,7 +20,7 @@ const Post: FC<PostProps> = ({ post }) => {
   const { tags, title, date } = post.frontmatter;
 
   return (
-    <div className={styles.post}>
+    <article className={styles.post}>
       <div className={styles.buttons}>
         <Button className={styles.buttonArticles} title="All Articles" to="/" />
         <ThemeSwitcher />
@@ -28,12 +28,12 @@ const Post: FC<PostProps> = ({ post }) => {
       <div className={styles.content}>
         <PostContent body={html} title={title} />
       </div>
-      <div className={styles.footer}>
+      <footer className={styles.footer}>
         <PostFooter date={date} />
         {tags && tagSlugs && <PostTags tags={tags} tagSlugs={tagSlugs} />}
         <PostAuthor />
-      </div>
-    </div>
+      </footer>
+    </article>
   );
 };
 
